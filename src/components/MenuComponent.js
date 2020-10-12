@@ -11,6 +11,12 @@ class Menu extends Component {
         this.state = {
             selectedDish: null
         }
+
+        console.log('Menu Component is invoked');
+    }
+
+    componentDidMount() {
+        console.log('Menu Component componentDidMount is invoked');
     }
 
     onDishSelect(dish) {
@@ -61,6 +67,7 @@ class Menu extends Component {
                 </div>
             </div>
         );
+        console.log('Menu Component render is invoked');
     }
 }
 
