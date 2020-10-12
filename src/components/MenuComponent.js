@@ -27,7 +27,7 @@ class Menu extends Component {
                 </Card>
             );
         else
-            return(
+            return (
                 <div></div>
             );
     }
