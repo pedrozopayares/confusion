@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Navbar, NavbarBrand} from 'reactstrap';
 import Menu from './components/MenuComponent';
-import {DISHES} from './shared/dishes';
+import {DISHES} from './shared/dishes'; // Import dishes from a external array
 import './App.css';
 
 class App extends Component {
@@ -20,7 +20,7 @@ class App extends Component {
               <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
             </div>
           </Navbar>
-          <Menu dishes={this.state.dishes} />
+          <Menu dishes={this.state.dishes} /> 
       </div>
     );
   }

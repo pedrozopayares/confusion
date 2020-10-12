@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle} from 'reactstrap';
 
+// MenuComponent for show all the reataurant dishes ofert
+
 class Menu extends Component {
 
     constructor(props) {
