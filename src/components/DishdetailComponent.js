@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle} from 'reactstrap';
 
-// MenuComponent for show all the reataurant dishes ofert
+// DishdetailComponent for show all the reataurant dishes ofert
 
-class Menu extends Component {
+class DishDetail extends Component {
 
     constructor(props) {
         super(props);
@@ -71,4 +71,4 @@ class Menu extends Component {
     }
 }
 
-export default Menu;
+export default DishDetail;
